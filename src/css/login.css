@@ -1,0 +1,147 @@
+.form-group {
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    position: relative;
+    transition: border-color 0.3s;
+}
+
+.form-group>label {
+    position: absolute;
+    top: -25%;
+    left: 3%;
+    background-color: white;
+    color: grey;
+    padding: 0 5px;
+    font-size: small;
+}
+
+.form-group .required {
+    padding: 0 5px;
+}
+
+.form-group>input {
+    border: none;
+    border: 0;
+}
+
+.form-group .form-input {
+    height: 45px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.form-group:hover {
+    border-color: darkgray;
+    transition: border-color 0.3s;
+}
+
+.button {
+    border: 0;
+    border-radius: 24px;
+    font-size: 14px;
+}
+
+
+.inputWithButton input {
+    border: none;
+    /* width: 70%; */
+}
+
+
+.inputWithButton i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 45px;
+    aspect-ratio: 1/1;
+    transition: 0.3s;
+    /* border-radius: 50%; */
+    /* background-color: red; */
+}
+
+.circle:hover {
+    background-color: rgba(0, 145, 234, .1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.dot {
+    height: 2px;
+    width: 2px;
+    background: #8a96a3;
+}
+
+.dna {
+    background-color: #D50E67;
+    color: white;
+    transition: 0.3s;
+}
+
+.dna:hover {
+    background-color: #af0c55;
+    color: white;
+    transition: 0.3s;
+}
+
+.links a {
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+
+.column>a {
+    margin: 5px;
+    transition: 0.2s;
+}
+
+.column>a:first-child {
+    margin-top: 0px;
+}
+
+.column>a:hover {
+    color: #2298dd;
+    transition: 0.2s;
+}
+
+.tree {
+    background-color: #9CBE30;
+    color: white;
+    transition: 0.3s;
+}
+
+.tree:hover {
+    background-color: #819d28;
+    color: white;
+    transition: 0.3s;
+}
+
+.chip {
+    background-color: #0095FF;
+    color: white;
+}
+
+.chip:hover {
+    background-color: #0080db;
+    color: white;
+}
+
+.load-more button {
+    border-radius: 24px;
+    background-color: #F6F7F8;
+    border-color: #d7dbe0;
+    color: #2298dd;
+    transition: 0.3s;
+}
+
+.load-more button:hover {
+    color: #196fa1;
+    border-color: #196fa1;
+    background-color: #eff2f7;
+    transition: 0.3s;
+}

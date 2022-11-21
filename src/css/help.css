@@ -1,0 +1,29 @@
+.search {
+    height: 260px;
+    z-index: 0;
+    position: sticky;
+    top: 56px;
+}
+
+#searchBar:focus {
+    box-shadow: none;
+}
+
+.line {
+    height: 4px;
+    background-color: #A3DAF7;
+    border-radius: 45px;
+    border-top: none;
+    opacity: 100%;
+}
+
+.short-line {
+    height: 4px;
+    background-color: #9AD8F8;
+    width: 60px;
+    border-top: none;
+    border-radius: 45px;
+    opacity: 100%;
+    padding: 0;
+    margin: 1% 0;
+}
